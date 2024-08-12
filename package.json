@@ -1,0 +1,19 @@
+{
+  "name": "devnotes",
+  "version": "1.0.0",
+  "description": "Aplicação para criação e gerenciamento de notas",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["notas", "gerenciamento", "tarefas", "productivity"],
+  "author": "Beatriz zinko",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
