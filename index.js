@@ -9,3 +9,10 @@ app.get('/', (req, res) => {
 app.listen(PORT, () => {
   console.log(`Servidor rodando na porta ${PORT}`);
 });
+
+import React from 'react';
+import ReactDOM from 'react-dom';
+import App from './App';
+import './App.css';
+
+ReactDOM.render(<App />, document.getElementById('root'));
