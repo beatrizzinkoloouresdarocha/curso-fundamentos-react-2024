@@ -4,7 +4,8 @@
   "description": "Aplicação para criação e gerenciamento de notas",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
+    "start": "webpack serve --mode development",
+    "build": "webpack --mode production",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -13,12 +14,12 @@
     "tarefas",
     "productivity"
   ],
-  "author": "Beatriz zinko",
+  "author": "Beatriz Zinko",
   "license": "MIT",
   "dependencies": {
     "express": "^4.17.3",
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   },
   "devDependencies": {
     "@babel/core": "^7.25.2",
